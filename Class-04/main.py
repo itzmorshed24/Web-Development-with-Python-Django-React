@@ -1,25 +1,41 @@
 """
-#For Loop
-girls = ["Katrina", "Carina", "Jarina", "Shakrina"]
-
-for gf in girls:
-    print(gf)
+#List
+fruits = ['apple', 'banana', 'cherry']
 
 
-word ="Morshed"
-for letter in word:
-    print(letter)
+#starting point, ending point condition, increment
 
-for item in range(100):
-    print(item)
-#dictionay
-examResult = {'Phy':90, 'Math':89, 'Bangla':80}
-for subject,marks in examResult.items():
-    print("Subject: "+subject +"Marks: "+str(marks))
-    #print("{}:{}".format(subject,marks))
+index = 0
+while index<len(fruits):
+    print(fruits[index])
+    index = index+1
+#String
+word ="Hello"
+index=0
+while index<len(word):
+    print(word[index])
+    index = index+1
 
-#set
-unique_numbers = {1, 2, 3, 4, 5}
-for eachnumber in unique_numbers:
-    print(eachnumber)
+    #Range
+
+index = 0
+end = 10
+while index<end:
+
+    if index == 5:
+        index = index+1
+        continue
+    print(index)
+    index = index+1
+
 """
+#dictionary
+
+examResult = {"Physics":98, "Math": 88, "Bangla": 78}
+keys=list(examResult.keys())
+
+index = 0
+while index<len(keys):
+    eachkey=keys[index]
+    print(examResult[eachkey])
+    index = index+1
