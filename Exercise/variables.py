@@ -1,4 +1,4 @@
-"""
+
 name = 'Morshed'
 age = 22
 price = 92.25
@@ -24,9 +24,6 @@ city = "Dinajpur"
 print(city)
 city = 'Chirirbandar'
 print(city)
-
-
-"""
 
 #Excercise-3
 x, y, z = 5, 10, 15
