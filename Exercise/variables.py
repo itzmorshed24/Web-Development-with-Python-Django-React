@@ -39,10 +39,14 @@ print(b)
 print(c)
 
 #Excercise-5
+price = 99.99
+print(type(price)) # <class 'float'>
 
-
-
-
+#Excercise-6
+first_name = 'Morshed'
+last_name = 'Alam'
+full_name = first_name + " " + last_name
+print(full_name)
 
 
 
